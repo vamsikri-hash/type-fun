@@ -1,4 +1,4 @@
-type Trim<S extends string> = Trim.TrimLeft<Trim.TrimRight<S>>;
+type Trim<S extends string> = TrimModule.TrimLeft<TrimModule.TrimRight<S>>;
 
 type extrim1 = Trim<" str ">;
 type exTrim2 = Trim<"str">;

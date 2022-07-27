@@ -1,4 +1,4 @@
-namespace Trim {
+namespace TrimModule {
   export type Spaces = " " | "\n" | "\t";
 
   export type TrimLeft<S extends string> =
